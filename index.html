@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bot Showcase</h1>
+        <nav>
+            <ul>
+                <li><a href="#showcase">Showcase</a></li>
+                <li><a href="#add-bot">Add Bot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="showcase">
+            <h2>Featured Bots</h2>
+            <div class="bot-container">
+                <!-- Example Bot Item -->
+                <div class="bot-item">
+                    <img src="https://via.placeholder.com/150" alt="Bot 1">
+                    <h3>Bot Name 1</h3>
+                    <p>This is a description of Bot 1. It does amazing things!</p>
+                </div>
+                <!-- Add more bot items as needed -->
+            </div>
+        </section>
+
+        <section id="add-bot">
+            <h2>Add Your Bot</h2>
+            <form id="bot-form">
+                <label for="bot-name">Bot Name:</label>
+                <input type="text" id="bot-name" name="bot-name" required>
+
+                <label for="bot-description">Description:</label>
+                <textarea id="bot-description" name="bot-description" required></textarea>
+
+                <label for="bot-image">Image URL:</label>
+                <input type="url" id="bot-image" name="bot-image" required>
+
+                <button type="submit">Add Bot</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bot Showcase. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
